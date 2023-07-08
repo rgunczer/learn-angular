@@ -1,0 +1,10 @@
+<p>parent-bee works!</p>
+
+<form [formGroup]="frm">
+  <input type="text" formControlName="bee" />
+  <app-personal />
+</form>
+
+<pre>
+  {{ frm.value | json }}
+</pre>

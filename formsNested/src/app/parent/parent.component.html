@@ -1,0 +1,12 @@
+<p>parent works!</p>
+
+<form [formGroup]="frm">
+   <app-personal />
+   <!-- <app-address></app-address> -->
+</form>
+
+<button type="button" (click)="onFill()">Fill</button>
+
+<pre>
+  {{ frm.value | json }}
+</pre>
