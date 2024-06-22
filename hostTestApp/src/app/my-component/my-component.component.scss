@@ -1,0 +1,18 @@
+:host {
+  display: block;
+  background-color: yellow;
+  padding: 1rem;
+}
+
+:host(.highlight) {
+  border-color: red;
+  border-width: 4px;
+  border-style: solid;
+}
+
+div {
+  margin: 1rem;
+  padding: 1rem;
+  background-color: red;
+  border: 1px solid black;
+}
